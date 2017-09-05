@@ -12,6 +12,7 @@ RUN yum -y install https://s3-us-west-2.amazonaws.com/grafana-releases/release/g
 COPY run.sh /usr/share/grafana/
 RUN ls -la usr/bin/fix-permissions \
  && chmod a+x /usr/bin/fix-permissions \
+ && ls -la usr/bin/fix-permissions \
  && /usr/bin/fix-permissions /usr/share/grafana \
  && /usr/bin/fix-permissions /etc/grafana       \
  && /usr/bin/fix-permissions /var/lib/grafana   \
