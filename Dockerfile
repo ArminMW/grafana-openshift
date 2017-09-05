@@ -10,7 +10,8 @@ ADD root /
 RUN yum -y install https://s3-us-west-2.amazonaws.com/grafana-releases/release/grafana-"$GRAFANA_VERSION"-1.x86_64.rpm \
     && yum clean all
 COPY run.sh /usr/share/grafana/
-RUN chmod a+x /usr/bin/fix-permissions \
+RUN ls -la usr/bin/fix-permissions \
+ && chmod a+x /usr/bin/fix-permissions \
  && /usr/bin/fix-permissions /usr/share/grafana \
  && /usr/bin/fix-permissions /etc/grafana       \
  && /usr/bin/fix-permissions /var/lib/grafana   \
