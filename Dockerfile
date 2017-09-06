@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER Erik Jacobs <erikmjacobs@gmail.com>
+MAINTAINER Armin M. Warda <armin.warda@gmail.com>
 
 USER root
 EXPOSE 3000
