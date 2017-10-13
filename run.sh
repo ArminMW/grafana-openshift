@@ -5,6 +5,8 @@ source /etc/sysconfig/grafana-server
 # set env variable GF_INSTALL_PLUGINS in deployment config,
 # eg. to "fetzerch-sunandmoon-datasource,hawkular-datasource"
 
+#### Wolfgang
+
 if [ ! -z "${GF_INSTALL_PLUGINS}" ]; then
   OLDIFS=$IFS
   IFS=','
