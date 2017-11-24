@@ -1,4 +1,4 @@
-FROM centos:7
+FROM rhel:7
 MAINTAINER Armin M. Warda <armin.warda@gmail.com>
 
 USER root
