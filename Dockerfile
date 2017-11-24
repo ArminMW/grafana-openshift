@@ -1,4 +1,4 @@
-FROM rhel7
+FROM registry.access.redhat.com/rhel7:latest
 MAINTAINER Armin M. Warda <armin.warda@gmail.com>
 
 USER root
