@@ -1,4 +1,4 @@
-FROM rhel:7
+FROM rhel7
 MAINTAINER Armin M. Warda <armin.warda@gmail.com>
 
 USER root
