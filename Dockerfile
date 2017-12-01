@@ -4,7 +4,7 @@ MAINTAINER Armin M. Warda <armin.warda@gmail.com>
 USER root
 EXPOSE 3000
 
-ENV GRAFANA_VERSION="4.6.0-1"
+ENV GRAFANA_VERSION="4.6.0"
 ENV GRAFANA_VERSION_PREV="4.5.2,4.4.3,4.3.1"
 
 ADD root /
